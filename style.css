@@ -1,0 +1,45 @@
+body {margin : 0;
+}
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+
+}
+.video {
+position: relative;
+padding-bottom: 56.25%;
+}
+.video__media{
+    position:absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: auto;
+}
+.container{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro__title{
+    
+    margin: 0;
+    font-size: 45px;
+    color: rgb(215, 18, 179);
+}
+.intro__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+
+
+}
+html { 
+    box-sizing: border-box; 
+ };
